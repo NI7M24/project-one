@@ -1,7 +1,6 @@
 * {
   margin: 0px 0px;
   padding: 0px;
-
   font-family: "Arial", sans-serif;
 }
 
@@ -67,7 +66,7 @@ nav {
   max-width: 450px;
 }
 
-.hero-text h1 {
+.hero-text h2 {
   font-size: 50px;
   margin-bottom: 15px;
   color: #000;
@@ -117,23 +116,20 @@ nav {
   }
 }
 
-.aside-h1 {
+.aside-h2 {
   justify-content: center;
   border-bottom: 2px solid black;
   display: inline;
-  padding: 20px 0px 0px 0px;
 }
 .h1-line {
-  color: black;
   text-align: center;
 }
-.section-p {
+.aside-p {
   text-align: center;
   font-size: 15px;
   margin: 20px auto;
   color: gray;
   max-width: 750px;
-  background-color: black;
 }
 .our {
   padding: 100px 0px 0px 0px;
@@ -141,24 +137,58 @@ nav {
 .card {
   width: 260px;
   background: #fff;
-  padding: 30px 20px;
   border-radius: 20px;
-  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 250px;
 }
-
 .card p {
   color: gray;
+  font-size: 15px;
+}
+.card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
 }
 
 .icons {
-  padding: 60px 0px 0px 60px;
+  padding: 80px 162px 50px 202px;
+  font-size: 15px;
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.icons h2 {
+  margin: 10px 0px 10px 0px;
 }
 .chatgpt {
   width: 75px;
   height: 90px;
+}
+.more {
+  display: inline-block;
+  padding: 10px 24px;
+  font-size: 16px;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 9999px;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.more-btn {
+  justify-content: center;
+  text-align: center;
+  padding: 60px 0px 60px 0px;
+}
+.more:hover {
+  background-color: skyblue;
+  color: black;
 }
