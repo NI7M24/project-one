@@ -1,0 +1,162 @@
+* {
+  margin: 0px 0px;
+  padding: 0px;
+
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px;
+}
+.container {
+  max-width: 1120px;
+}
+.logo-t {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1f2f56;
+  max-width: 600px;
+}
+
+.logo span {
+  background: #458ff6;
+  color: #fff;
+  border-radius: 50%;
+  padding: 6px 12px;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #444;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #000;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 70px 0px 200px;
+}
+
+.hero-text {
+  max-width: 450px;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.hero-text p {
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  padding: 20px 0px 20px 0px;
+}
+
+.btn {
+  background: #458ff6;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  font-size: 24px;
+}
+
+.img-1 img {
+  max-width: 100%;
+}
+
+.btn:hover {
+  background: #3074d1;
+}
+
+.img-1 {
+  width: 693px;
+  height: 598px;
+  float: right;
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .hero-text {
+    margin-top: 20px;
+  }
+}
+
+.aside-h1 {
+  justify-content: center;
+  border-bottom: 2px solid black;
+  display: inline;
+  padding: 20px 0px 0px 0px;
+}
+.h1-line {
+  text-align: center;
+}
+.section-p {
+  text-align: center;
+  font-size: 15px;
+  margin: 20px auto;
+  color: gray;
+  max-width: 750px;
+}
+.our {
+  padding: 100px 0px 0px 0px;
+}
+.card {
+  width: 260px;
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.card p {
+  color: gray;
+}
+
+.icons {
+  padding: 60px 0px 0px 60px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chatgpt {
+  width: 75px;
+  height: 90px;
+}
