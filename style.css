@@ -179,10 +179,7 @@ nav {
   border: 1px solid #007bff;
   border-radius: 24px;
   text-align: center;
-  background-color: transparent;
-  cursor: pointer;
   text-decoration: none;
-  transition: all 0.3s ease;
 }
 .more-btn {
   justify-content: center;
@@ -325,11 +322,71 @@ nav {
 .customer-p {
   font-size: 14px;
   line-height: 1.5;
-  max-width: 300px;
+  max-width: 700px;
   text-align: right;
   float: right;
 }
 .avatar h3 p {
   font-size: 13px;
   display: flex;
+}
+.latest {
+  padding: 40px 40px;
+}
+.h3 {
+  font-size: 25px;
+  text-align: center;
+}
+.line3 {
+  background: black;
+  width: 40px;
+  height: 2px;
+  margin: 18px 0px 0px 691px;
+  justify-content: center;
+}
+.card1 {
+  margin: auto;
+  max-width: 1300px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px 20px;
+}
+.icons1 {
+  box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.icons1 img {
+  border-radius: 20px 20px 0px 0px;
+}
+.icons1 p {
+  padding: 20px 0px;
+  color: gray;
+  font-size: 15px;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.icons1 h4 {
+  font-size: 20px;
+}
+.icons1 a {
+  text-decoration: none;
+  color: #3074d1;
+}
+.view {
+  margin: 100px 0px;
+  border: 1px solid #3074d1;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.view-text {
+  color: #3074d1;
+}
+.view-btn {
+  justify-content: center;
+  text-align: center;
 }
